@@ -1,0 +1,23 @@
+/*
+Name: Aakash Bhavesh Patel
+Roll No.: MT2024109
+Problem 3, Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+*/
+#include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main() {
+    int fd = creat("aak.txt", 0777);
+
+    if (fd == -1) {
+        perror("Error creating file");
+        return 1;
+    }
+
+    printf("File descriptor value: %d\n", fd);
+
+    close(fd);
+
+    return 0;
+}
