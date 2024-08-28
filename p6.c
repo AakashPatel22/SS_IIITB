@@ -15,3 +15,5 @@ int main() {
 
     return 0;
 }
+//i/p: Aakash is learning Linux
+//o/p: Aakash is learning Linux
