@@ -1,11 +1,14 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 11, Write a program to open a file, duplicate the file descriptor and append the file with both the
+============================================================================
+Name : p11.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to open a file, duplicate the file descriptor and append the file with both the
 descriptors and check whether the file is updated properly or not.
 a. use dup
 b. use dup2
 c. use fcntl
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <fcntl.h>
 #include <unistd.h>

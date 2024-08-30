@@ -1,12 +1,13 @@
 /*
 ============================================================================
-Name : p21.c
+Name : p24.c
 Author : Aakash Patel (MT2024109)
-Description : Write a program, call fork and print the parent and child process id.
+Description : Write a program to create an orphan process.
 Date: 30th Aug, 2024.
 ============================================================================
 */
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 
 int main() {
@@ -17,10 +18,12 @@ int main() {
     if (pid < 0) {
         printf("Fork failed!\n");
         return 1;
-    } else if (pid == 0) {
-        printf("This is the child process. My PID is %d, and my parent's PID is %d.\n", getpid(), getppid());
+    } else if (pid > 0) {
+        printf("Parent process (PID: %d) is exiting.\n", getpid());
+        exit(0);
     } else {
-        printf("This is the parent process. My PID is %d, and my child's PID is %d.\n", getpid(), pid);
+        sleep(5);
+        printf("Child process (PID: %d) is now an orphan\n", getpid());
     }
 
     return 0;

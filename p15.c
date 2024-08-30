@@ -1,7 +1,10 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 15, Write a program to display the environmental variable of the user (use environ).
+============================================================================
+Name : p15.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to display the environmental variable of the user (use environ).
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <stdio.h>
 

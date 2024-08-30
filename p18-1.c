@@ -1,11 +1,14 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 18, Write a program to perform Record locking.
+============================================================================
+Name : p18-1.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to perform Record locking.
 a. Implement write lock
 b. Implement read lock
 Create three records in a file. Whenever you access a particular record, first lock it then modify/access
 to avoid race condition.
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <stdio.h>
 #include <fcntl.h>

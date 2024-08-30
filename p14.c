@@ -1,9 +1,12 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 14, Write a program to find the type of a file.
+============================================================================
+Name : p14.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to find the type of a file.
 a. Input should be taken from command line.
 b. program should be able to identify any type of a file.
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <stdio.h>
 #include <sys/stat.h>

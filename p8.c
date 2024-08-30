@@ -1,8 +1,11 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 8, Write a program to open a file in read only mode, read line by line and display each line as it is read.
+============================================================================
+Name : p8.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to open a file in read only mode, read line by line and display each line as it is read.
 Close the file when end of file is reached.
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <fcntl.h>
 #include <unistd.h>

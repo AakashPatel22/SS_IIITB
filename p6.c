@@ -1,7 +1,10 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 6, Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls.
+============================================================================
+Name : p6.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls.
+Date: 25th Aug, 2024.
+============================================================================
 */
 #include <unistd.h>
 

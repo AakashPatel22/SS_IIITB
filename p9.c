@@ -1,7 +1,8 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 9, 9. Write a program to print the following information about a given file.
+============================================================================
+Name : p9.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to print the following information about a given file.
 a. inode
 b. number of hard links
 c. uid
@@ -12,6 +13,8 @@ g. number of blocks
 h. time of last access
 i. time of last modification
 j. time of last change
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <stdio.h>
 #include <sys/stat.h>

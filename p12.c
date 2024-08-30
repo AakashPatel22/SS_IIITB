@@ -1,7 +1,10 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 12, Write a program to find out the opening mode of a file. Use fcntl.
+============================================================================
+Name : p12.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to find out the opening mode of a file. Use fcntl.
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <fcntl.h>
 #include <unistd.h>

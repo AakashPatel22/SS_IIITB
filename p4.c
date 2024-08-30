@@ -1,7 +1,10 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 4, Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+============================================================================
+Name : p4.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+Date: 25th Aug, 2024.
+============================================================================
 */
 #include <fcntl.h>
 #include <unistd.h>

@@ -1,8 +1,11 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 5, Write a program to create five new files with infinite loop. Execute the program in the background
+============================================================================
+Name : p5.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to create five new files with infinite loop. Execute the program in the background
 and check the file descriptor table at /proc/pid/fd.
+Date: 25th Aug, 2024.
+============================================================================
 */
 #include <stdio.h>
 #include <fcntl.h>

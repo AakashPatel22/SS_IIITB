@@ -1,8 +1,11 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 16, Write a program to perform mandatory locking.
+============================================================================
+Name : p16A.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to perform mandatory locking.
 a. Implement write lock
+Date: 28th Aug, 2024.
+============================================================================
 */
 #include <stdio.h>
 #include <fcntl.h>

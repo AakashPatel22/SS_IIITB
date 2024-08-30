@@ -1,7 +1,10 @@
 /*
-Name: Aakash Bhavesh Patel
-Roll No.: MT2024109
-Problem 3, Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+============================================================================
+Name : p3.c
+Author : Aakash Patel (MT2024109)
+Description : Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+Date: 25th Aug, 2024.
+============================================================================
 */
 #include <stdio.h>
 #include <fcntl.h>
