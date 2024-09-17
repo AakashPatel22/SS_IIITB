@@ -23,7 +23,6 @@ int main() {
     struct itimerval timer;
     signal(SIGVTALRM, signal_handler);
 
-    // Set interval to 10 seconds and 10 microseconds
     timer.it_value.tv_sec = 10;
     timer.it_value.tv_usec = 10;
     timer.it_interval.tv_sec = 10;
@@ -32,7 +31,7 @@ int main() {
     setitimer(ITIMER_VIRTUAL, &timer, NULL);
 
     while (1) {
-        // Infinite loop to keep program running and catch the signal
+
         sleep(1);
     }
     
